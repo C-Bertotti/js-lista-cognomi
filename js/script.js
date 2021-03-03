@@ -7,5 +7,7 @@ scrivi anche la posizione "umana" della lista in cui il nuovo utente si trova */
 var lastName = ['Bianchi', 'Rossi', 'Duzioni', 'Balsano', 'Verdi'];
 
 // 2. Chiedo all'utente di inserire il suo cognome;
-
 var userLastName = prompt("Inserisci il tuo cognome");
+
+// 3. Inserisco il cognome dell'utente nell'array;
+lastName.push(userLastName);
